@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.card {
+    transition: transform 0.2s ease-in-out;    
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-custom {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 15em;
+
+
+}
